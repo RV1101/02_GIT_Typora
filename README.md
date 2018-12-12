@@ -19,10 +19,16 @@
 ### 远程仓库
 
 1. 创建SSH Key				ssh-keygen -t rsa -C "vlsi2700@gmail.com"
+
 2. 存放位置					user/.ssh/{id_rsa, id_rsa.pub}
+
 3. 关联本地仓库				git remote add origin git@github.com:RV1101/init.git
+
 4. 推送本地仓库				git push (-u) origin master
+
 5. 克隆远程仓库				git clone git@github.com:RV1101/init.git
+
+   :happy:
 
 
 $$
